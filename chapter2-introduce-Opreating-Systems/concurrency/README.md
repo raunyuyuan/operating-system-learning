@@ -1,5 +1,5 @@
 # 并发
-编写的threads.c 会创建两个进程对counter进行增加
+编写的threads.c 会创建两个线程对counter进行增加
 
 ## 输入较小的值执行程序
 
