@@ -1,6 +1,9 @@
 # Learning 《Operating System:Three Easy Pieces》
 
-book source: http://pages.cs.wisc.edu/~remzi/OSTEP/#projects
+book resource: http://pages.cs.wisc.edu/~remzi/OSTEP/#projects
+book source code: https://github.com/remzi-arpacidusseau/ostep-code
+homework resource: http://pages.cs.wisc.edu/~remzi/OSTEP/Homework/homework.html
+
 
 操作系统有哪三个重要的点？
 

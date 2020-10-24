@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
+#include "common.h"
 
 int main(int argc, char *argv[]) {
   int *p = malloc(sizeof(int));

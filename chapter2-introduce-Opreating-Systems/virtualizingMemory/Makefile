@@ -1,22 +1,16 @@
 obj = ../../common.o mem.o 
 target = mem
-CC = gcc -I ../../
+CC = gcc  
 
 ${target}: ${obj}
-	${CC} ${obj} -o ${target}
+	${CC} ${obj} -o ${target} -Wall -Wl,-no_pie
 
-$.o: %.c
+../../common.o: ../../common.c
 	${CC} -c $< -o $@
 
-# ../../common.o: ../../common.c
-# 	gcc -c ../../common.c -o ../../common.o
+mem.o: mem.c
+	${CC} -c -I ../../ $< -o $@
 
-# cpu.o: cpu.c
-# 		gcc -I ../../ -c cpu.c -o cpu.o
-
-
-	
-		
 		
 .PHONY: clean  
 clean:  
